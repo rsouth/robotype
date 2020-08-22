@@ -1,0 +1,60 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+#include "windows.h"
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 207, 146
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Robotyper"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TEXT,7,7,120,120,                                // String input
+                    ES_AUTOHSCROLL | ES_AUTOVSCROLL | ES_MULTILINE |
+                    ES_WANTRETURN | WS_VSCROLL
+
+    EDITTEXT        IDC_DELAY,150,7,21,14,ES_NUMBER                   // Delay millis input
+    EDITTEXT        IDC_INTERVAL,150,28,21,14,ES_NUMBER                   // Interval millis input
+    LTEXT           "millis",IDC_STATIC,177,10,23,8                    // GUI Text
+    PUSHBUTTON      "&Start",IDC_START,150,125,50,14                   // Start button
+END
+
+////1 DIALOGEX 0, 0, 350, 131
+//IDD_MAIN DIALOG DISCARDABLE  0, 0, 350, 130
+//STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+//CAPTION "Robotyper"
+//LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+//FONT 9, "SEGOE UI"
+//BEGIN
+//    CONTROL "Start", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 209, 110, 134, 11
+//    CONTROL "", 0, EDIT, ES_LEFT | ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 7, 7, 196, 114
+//    CONTROL "Config", 0, BUTTON, BS_GROUPBOX | WS_CHILD | WS_VISIBLE, 209, 35, 134, 66
+//    CONTROL "5000", 0, EDIT, ES_LEFT | ES_NUMBER | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 218, 57, 44, 10
+//    CONTROL "millis", 0, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 266, 59, 32, 8
+//    CONTROL "250", -1, EDIT, ES_LEFT | ES_NUMBER | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 218, 81, 44, 10
+//    CONTROL "millis", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 264, 83, 32, 8
+//    CONTROL "Delay:", 0, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 218, 48, 32, 7
+//    CONTROL "Interval:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 218, 72, 32, 7
+////    LTEXT "Robotyper\ngithub.com/rsouth/robotyper", 0, STATIC, SS_CENTER | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_GROUP, 209, 8, 128, 18
+//END
+
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
