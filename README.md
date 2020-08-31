@@ -46,7 +46,7 @@ nmake
 
 ## :rocket: Download
 
-[Releases Page](https://github.com/rsouth/sequencer/releases)
+[Releases Page](https://github.com/rsouth/robotyper/releases)
 
 
 ## :art: Icons
